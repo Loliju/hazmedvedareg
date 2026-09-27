@@ -32,8 +32,8 @@ api/                  התחברות מאובטחת דרך גיטהאב
 | שדה | מה למלא |
 |---|---|
 | Application name | Hazmedvedareg CMS |
-| Homepage URL | `https://hazmedvedareg.co.il` |
-| Authorization callback URL | `https://hazmedvedareg.co.il/api/callback` |
+| Homepage URL | `https://hazmedvedareg.vercel.app` |
+| Authorization callback URL | `https://hazmedvedareg.vercel.app/api/callback` |
 
 לחצו **Register**, ואז **Generate a new client secret**. שמרו את שני הערכים:
 `Client ID` ו-`Client Secret`.
@@ -55,12 +55,12 @@ api/                  התחברות מאובטחת דרך גיטהאב
 
 ```yml
 repo: USER/REPO                          ← שם המשתמש / שם המאגר שלכם
-base_url: https://hazmedvedareg.co.il    ← הכתובת של האתר
+base_url: https://hazmedvedareg.vercel.app    ← הכתובת של האתר
 ```
 
 ### 6. סיימתם
 
-היכנסו ל-`https://hazmedvedareg.co.il/admin`, התחברו עם גיטהאב, וערכו.
+היכנסו ל-`https://hazmedvedareg.vercel.app/admin`, התחברו עם גיטהאב, וערכו.
 
 ---
 
