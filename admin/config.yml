@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Loliju/hazmedvedareg
   branch: main
-  base_url: https://hazmedvedareg.co.il   # ← הכתובת של האתר שלכם ב-Vercel
+  base_url: https://hazmedvedareg.vercel.app   # ← הכתובת של האתר שלכם ב-Vercel
   auth_endpoint: api/auth
 
 locale: he
