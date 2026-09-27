@@ -1,0 +1,54 @@
+backend:
+  name: github
+  repo: Loliju/hazmedvedareg
+  branch: main
+  base_url: https://hazmedvedareg.co.il   # ← הכתובת של האתר שלכם ב-Vercel
+  auth_endpoint: api/auth
+
+locale: he
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "תוכן האתר"
+    files:
+      - file: "content/site.json"
+        name: "content"
+        label: "מחירים, טלפונים, לוגואים והמלצות"
+        fields:
+          - name: prices
+            label: "מחירים"
+            widget: object
+            fields:
+              - { name: stand, label: "מעמד לדלפק (₪)", widget: number, value_type: float }
+              - { name: sticker, label: "מדבקה (₪)", widget: number, value_type: float }
+
+          - name: phones
+            label: "טלפונים ליצירת קשר"
+            widget: list
+            label_singular: "טלפון"
+            summary: "{{fields.number}}"
+            fields:
+              - { name: number, label: "מספר (בפורמט 054-1234567)", widget: string }
+
+          - name: logos
+            label: "לוגואים בקרוסלה"
+            widget: list
+            label_singular: "לוגו"
+            summary: "{{fields.name}}"
+            fields:
+              - { name: name, label: "שם העסק", widget: string }
+              - { name: image, label: "קובץ הלוגו", widget: image }
+
+          - name: testimonials
+            label: "המלצות לקוחות"
+            widget: list
+            label_singular: "המלצה"
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { name: quote, label: "הציטוט", widget: text }
+              - { name: name, label: "שם הממליץ", widget: string }
+              - { name: role, label: "תפקיד ושם העסק", widget: string }
+              - { name: stars, label: "כוכבים (1-5)", widget: number, min: 1, max: 5, default: 5 }
+              - { name: logo, label: "לוגו העסק", widget: image, required: false }
