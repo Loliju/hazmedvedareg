@@ -1,0 +1,65 @@
+{
+  "prices": {
+    "stand": 99.9,
+    "sticker": 89.9
+  },
+  "phones": [
+    {
+      "number": "054-4222966"
+    },
+    {
+      "number": "058-4696668"
+    }
+  ],
+  "logos": [
+    {
+      "name": "Precise",
+      "image": "/images/uploads/precise.jpg"
+    },
+    {
+      "name": "Yael Steinberg Jewelry Designer",
+      "image": "/images/uploads/yael.jpg"
+    },
+    {
+      "name": "baked by Deborah",
+      "image": "/images/uploads/baked.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "הדבקנו את המדבקה על הדלפק ליד הקופה, ואומרים ללקוח להצמיד את הטלפון בזמן שהוא משלם. בשבועיים הראשונים קיבלנו יותר ביקורות מכל הרבעון שלפני.",
+      "name": "דניאל אבישר",
+      "role": "בעל המספרה · Iron Comb",
+      "stars": 5,
+      "logo": "/images/uploads/comb.png"
+    },
+    {
+      "quote": "שמנו את המדבקה על הדלפק בעמדת התיקונים, ומאז הדירוג שלנו בגוגל עלה מ־4.3 ל־4.8. לקוחות חדשים מספרים שבחרו בנו בגלל הביקורות.",
+      "name": "נועה ברנר",
+      "role": "מנהלת החנות · Voltside",
+      "stars": 5,
+      "logo": "/images/uploads/volt.png"
+    },
+    {
+      "quote": "הצמדנו מדבקה אחת לכל חשבונית ואחת ליד עמדת הטייק־אווי. בערך 40 ביקורות חדשות בחודש הראשון, ורובן עם תמונות של האוכל.",
+      "name": "מרקו לוי",
+      "role": "שף־שותף · Forno Rosso",
+      "stars": 4,
+      "logo": "/images/uploads/forno.png"
+    },
+    {
+      "quote": "קונים אצלנו לחם בדרך לעבודה, אז יש שנייה וחצי אינטראקציה — והמדבקה בנויה בדיוק לזה. הצוות פשוט אומר ״תצמיד פה״, בלי ללמוד כלום.",
+      "name": "תמר קדוש",
+      "role": "בעלת המאפייה · Golden Crumb",
+      "stars": 5,
+      "logo": "/images/uploads/golden.png"
+    },
+    {
+      "quote": "הבעיה לא הייתה רצון אלא חסימה — אנשים לא זוכרים לחפש אותנו בגוגל אחרי שהם יוצאים. המדבקה מסירה את החסימה בנקודת הקנייה.",
+      "name": "יונתן מזרחי",
+      "role": "מייסד · Pawtrail",
+      "stars": 5,
+      "logo": "/images/uploads/paw.png"
+    }
+  ]
+}
